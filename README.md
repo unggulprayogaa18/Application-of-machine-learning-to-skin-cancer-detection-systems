@@ -1,9 +1,9 @@
 
-"" Cloud services used
-1.cloud storage
-2.cloud run
-3.app engine
-4.cloud firestore
+## Cloud services used
+1.  **Cloud storage
+2.  **Cloud run
+3.  **App engine
+4.  **Cloud firestore
 
 ### Explanation:
 1. **Part 1: Deploy Backend on Cloud Run**: Provides steps to create a Dockerfile, build a Docker image, and deploy an application to Cloud Run.
