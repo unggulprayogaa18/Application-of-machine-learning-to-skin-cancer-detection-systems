@@ -20,8 +20,8 @@ In this project, I have used Node.js for running the backend, and WSL (Windows S
 Here is a breakdown of the setup process:
 
 1. **Backend with Node.js:**:
-   - The backend of the application is built using Node.js, which allows for efficient handling of requests and provides a powerful runtime for the application. I used Express.js (a popular Node.js framework) to structure the backend API endpoints and connect them to the 
-     frontend. The backend handles processing the requests, managing the data, and integrating with external services (like Cloud Storage for the ML model).
+   - The backend of the application is built using Node.js, which allows for efficient handling of requests and provides a powerful runtime for the application. I used Express.js (a popular Node.js framework) to structure the backend API endpoints and connect them to 
+     the frontend. The backend handles processing the requests, managing the data, and integrating with external services (like Cloud Storage for the ML model).
 
 2. **WSL Ubuntu for Google Cloud SDK:**:
    - For interacting with Google Cloud Platform (GCP), I set up WSL (Windows Subsystem for Linux) with an Ubuntu environment on my Windows machine. WSL allows me to run a Linux distribution directly on Windows, providing a more native development experience for cloud- 
@@ -29,6 +29,11 @@ Here is a breakdown of the setup process:
    - Google Cloud SDK (gcloud) is installed on WSL Ubuntu, which enables me to interact with GCP services like Cloud Run, App Engine, and Cloud Storage directly from the command line. This setup helps streamline the deployment and management of services in the cloud 
      environment.
 
+3. ** Google Cloud Platform (GCP) **:
+   -  I use Google Cloud Platform (GCP) and configure Google ADC (Application Default Credentials) for authentication. First, I install the Google Cloud SDK, then authenticate using the command `gcloud auth application-default login`. Finally, I ensure the active GCP 
+      project is set correctly with gcloud config set project `<your-gcp-project-name>`. This allows the application to securely access GCP resources..
+
+## Explanation of the Setup:
 
 
 
