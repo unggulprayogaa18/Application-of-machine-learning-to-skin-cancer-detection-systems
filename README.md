@@ -33,7 +33,7 @@ Here is a breakdown of the setup process:
    -  I use Google Cloud Platform (GCP) and configure Google ADC (Application Default Credentials) for authentication. First, I install the Google Cloud SDK, then authenticate using the command `gcloud auth application-default login`. Finally, I ensure the active GCP 
       project is set correctly with gcloud config set project `<your-gcp-project-name>`. This allows the application to securely access GCP resources..
 
-## Explanation of the Setup:
+## Explanation of the step:
 
 
 
